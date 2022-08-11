@@ -1,3 +1,51 @@
+.logo {
+    font-size: 18px;
+    font-family: #F9FAF8;
+}
+
+
 .header {
     display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: space-around;
+} 
+
+.right {
+    display: flex;
+    gap: 20px;
+    align-items:center;
+    justify-content:right;
+    border-color: red;
+}
+
+.left {
+    justify-content: center;
+    align-items: right;
+}
+
+.containerone {
+    display: flex;
+    background-color: #1F2937;
+    color:white;
+    padding: 90px;
+    border: 90px;
+    justify-content: space-around;
+}
+
+.rb {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    height: 150px;
+    width: 300px;
+    align-items: center;
+}
+
+.lb {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    width: 300px;
+    align-items: center;
 }
