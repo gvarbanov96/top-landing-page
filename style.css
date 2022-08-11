@@ -49,3 +49,37 @@
     width: 300px;
     align-items: center;
 }
+
+.fmid {
+    display: flex;
+    background-color: brown;
+    justify-content: center;
+    height: 50px;
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.flex-container {
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:60px;
+}
+
+.one {
+    border: 10px solid blue;
+    padding:65px;
+}
+
+.two {
+    border: 10px solid blue;
+    padding:65px;
+}
+
+.three {
+    border: 10px solid blue;
+    padding:65px;
+}
