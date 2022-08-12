@@ -1,6 +1,7 @@
 .logo {
     font-size: 18px;
     font-family: #F9FAF8;
+    font-weight: bolder;
 }
 
 
@@ -11,12 +12,17 @@
     justify-content: space-around;
 } 
 
+a {
+    color: white;
+}
+
 .right {
     display: flex;
     gap: 20px;
     align-items:center;
     justify-content:right;
-    border-color: red;
+    color: white;
+    font-size: 12px;
 }
 
 .left {
@@ -33,13 +39,27 @@
     justify-content: space-around;
 }
 
+.signup1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 25px;
+    width: 65px;
+    height: 25px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
 .rb {
     display: flex;
     justify-content: center;
     background-color: grey;
-    height: 150px;
-    width: 300px;
+    height: 250px;
+    width: 450px;
     align-items: center;
+    border-radius: 25px;
 }
 
 .lb {
@@ -48,6 +68,16 @@
     height: 150px;
     width: 300px;
     align-items: center;
+}
+
+.websiteawe {
+    font-size: 36px;
+    color: white;
+}
+
+.lbsubtext {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.76);
 }
 
 .fmid {
@@ -67,28 +97,12 @@
     gap:60px;
 }
 
-.one {
-    border: 6px solid #3882f6;
+img {
+    border: 3px solid #3882f6;
     border-radius: 25px;
-    padding:65px;
-}
-
-.two {
-    border: 6px solid #3882f6;
-    border-radius: 25px;
-    padding:65px;
-}
-
-.three {
-    border: 6px solid #3882f6;
-    border-radius: 25px;
-    padding:65px;
-}
-
-.four {
-    border: 6px solid #3882f6;
-    border-radius: 25px;
-    padding:65px;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .flex-container2 {
@@ -144,4 +158,3 @@ p {
     color: white;
     font-size: 12px;
 }
-    
