@@ -83,3 +83,23 @@
     border: 10px solid blue;
     padding:65px;
 }
+
+.four {
+    border: 10px solid blue;
+    padding:65px;
+}
+
+.flex-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #e5e7eb;
+}
+
+.quotebox {
+    width: 500px;
+    font-size: 26px;
+    font-style: light italic;
+    color: #1F2937;
+}
