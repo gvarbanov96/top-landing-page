@@ -52,7 +52,6 @@
 
 .fmid {
     display: flex;
-    background-color: brown;
     justify-content: center;
     height: 50px;
     font-size: 26px;
@@ -60,8 +59,7 @@
 }
 
 .flex-container {
-    background: peachpuff;
-    border: 4px solid brown;
+    background: white;
     height: 300px;
     display: flex;
     justify-content: center;
@@ -70,22 +68,26 @@
 }
 
 .one {
-    border: 10px solid blue;
+    border: 6px solid #3882f6;
+    border-radius: 25px;
     padding:65px;
 }
 
 .two {
-    border: 10px solid blue;
+    border: 6px solid #3882f6;
+    border-radius: 25px;
     padding:65px;
 }
 
 .three {
-    border: 10px solid blue;
+    border: 6px solid #3882f6;
+    border-radius: 25px;
     padding:65px;
 }
 
 .four {
-    border: 10px solid blue;
+    border: 6px solid #3882f6;
+    border-radius: 25px;
     padding:65px;
 }
 
@@ -103,3 +105,43 @@
     font-style: light italic;
     color: #1F2937;
 }
+
+.flex-container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.ffcontainer {
+    display: flex;
+    background-color:  #3882f6;;
+    justify-content: space-around;
+    align-items: center;
+    width: 750px;
+    height: 125px;
+    color: white;
+    border-radius: 25px;
+}
+
+p {
+    margin: 0%;
+}
+
+.rtext {
+    display: flex;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.footer {
+    display: flex;
+    height: 40px;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+}
+    
